@@ -27,8 +27,9 @@ import misc
 
 # Allows for the program to be ran from any working directory
 APP_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+GLADE_DIRECTORY = "res"
 GLADE_FILENAME = "ui.glade"
-GLADE_FILEPATH = os.path.join(APP_DIRECTORY, GLADE_FILENAME)
+GLADE_FILEPATH = os.path.join(APP_DIRECTORY, GLADE_DIRECTORY, GLADE_FILENAME)
 directory_filepath = ""
 
 # Constants for the help window message

@@ -18,7 +18,7 @@
     <property name="width-request">324</property>
     <property name="can-focus">False</property>
     <property name="title" translatable="yes">Pyrectory</property>
-    <property name="icon-name">address-book-new</property>
+    <property name="icon">icon-48.png</property>
     <signal name="delete-event" handler="on_main_win_delete_event" swapped="no"/>
     <child>
       <object class="GtkBox">
@@ -271,7 +271,8 @@
     <property name="website">https://github.com/MrBeam89/pyrectory</property>
     <property name="website-label" translatable="yes">GitHub</property>
     <property name="authors">MrBeam89_</property>
-    <property name="logo-icon-name">address-book-new</property>
+    <property name="artists">MrBeam89_</property>
+    <property name="logo">icon-48.png</property>
     <property name="license-type">gpl-3-0</property>
     <child internal-child="vbox">
       <object class="GtkBox">
