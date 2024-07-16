@@ -592,7 +592,7 @@ builder.add_from_file(GLADE_FILEPATH)
 
 # Main window
 main_win = builder.get_object("main_win")
-#main_win.connect("destroy", Gtk.main_quit)
+main_win.connect("destroy", Gtk.main_quit)
 
 # Entry table
 entry_list = builder.get_object("entry_list")
